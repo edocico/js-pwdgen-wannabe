@@ -36,4 +36,6 @@
     console.log(newPassword)
 //## Stampare il risultato sulla pagina
     //- richiamare con javascript l'elemento del dom con id = password
+        const printedPassword = document.getElementById('password')
     //- modificare l' innerHTML dell' elemento con id = password con il valore della variabile " new password "
+        printedPassword.innerHTML = newPassword
