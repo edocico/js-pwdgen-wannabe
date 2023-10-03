@@ -31,7 +31,9 @@
         stringNumber = genNumber.toString()
         console.log(stringNumber)
 //## Concatenare nome , cognome, colore e numero
-    //- dichiarare una variabile "new password " dove concatenare le varie stringhe 
+    //- dichiarare una variabile "new password " dove concatenare le varie stringhe
+    const newPassword = firstName + lastName + preferredColour +stringNumber
+    console.log(newPassword)
 //## Stampare il risultato sulla pagina
     //- richiamare con javascript l'elemento del dom con id = password
     //- modificare l' innerHTML dell' elemento con id = password con il valore della variabile " new password "
