@@ -28,7 +28,7 @@
        console.log(genNumber) 
        // -trasformare il valore numerico in una stringa
        let stringNumber
-        stringNumber = genNumber.toString
+        stringNumber = genNumber.toString()
         console.log(stringNumber)
 //## Concatenare nome , cognome, colore e numero
     //- dichiarare una variabile "new password " dove concatenare le varie stringhe 
