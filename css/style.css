@@ -3,3 +3,15 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.app {
+    height: 100vh;
+}
+
+header {
+    padding: 40px 20px;
+}
+
+main {
+    padding: 20px 20px;
+}
