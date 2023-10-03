@@ -16,11 +16,20 @@
     console.log(lastName)
 //## Chiedere all' utente il colore preferito
     //- dichiarare una variabile per il colore preferito dell' utente
+    let preferredColour
     //- assegnare alla variabile il valore restituito da un prompt sulla pagina
+    preferredColour = prompt('Dimmi il tuo colore preferito...')
+    console.log(preferredColour)
 //## Genera randomicamente un numero 
     //### Bonus
-       // - Generare randomicamente un numero 
+       // - Generare randomicamente un numero
+       let genNumber
+       genNumber = Math.floor((Math.random() * 100) + 1)
+       console.log(genNumber) 
        // -trasformare il valore numerico in una stringa
+       let stringNumber
+        stringNumber = genNumber.toString
+        console.log(stringNumber)
 //## Concatenare nome , cognome, colore e numero
     //- dichiarare una variabile "new password " dove concatenare le varie stringhe 
 //## Stampare il risultato sulla pagina
